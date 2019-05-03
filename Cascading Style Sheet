@@ -1,8 +1,17 @@
 
 <html>
+    
     <head>
         <title>HTML Practice - IMD233</title>
+        <style> <!-- Beginning of style Alan -->
+        h1 {color:crimson;}
+        </style>
     </head>
+    
+    <body>
+    <h1>Cascading Style Sheets</h1>
+    </body> <!-- End of style Alan -->
+   
     <body>
         <h1>Practice Heading</h1>  <!-- Heading 1 Alan -->
         <h2>Practice Heading 2</h2> <!-- Heading 2 Alan -->
