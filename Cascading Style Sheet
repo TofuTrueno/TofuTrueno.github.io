@@ -13,15 +13,20 @@
         
         <strong>Super Buff Heading</strong> <!-- Bolded Heading Aaron -->
        
+       <head> <!-- Beginning of link rel Alan -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
         <p>Text here</p> <!-- Beginning of div Alan -->
         
-        <!-- div content Aaron -->
         <div style="background-color:crimson">
             <h3>Random title text</h3>
             <p>small text</p>
             </div>
         
         <p>Text here</p> <!-- End of div Alan -->
+        
+        </body> <!-- End of link rel Alan -->
         
         <i>this is italic text</i> <!--italic Text Iman -->
 
