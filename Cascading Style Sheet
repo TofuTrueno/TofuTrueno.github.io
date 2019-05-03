@@ -5,11 +5,13 @@
         <title>HTML Practice - IMD233</title>
         <style> <!-- Beginning of style Alan -->
         h1 {color:crimson;}
+        h2 {color:magenta; font-family:verdana} <!-- h2 style change Aaron -->
         </style>
     </head>
     
     <body>
     <h1>Cascading Style Sheets</h1>
+    <h2>It's magenta time say goodnight</h2> <!-- Magenta threat Aaron -->
     </body> <!-- End of style Alan -->
    
     <body>
