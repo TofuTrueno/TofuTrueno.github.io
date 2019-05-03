@@ -3,9 +3,9 @@
     
     <head>
         <title>HTML Practice - IMD233</title>
-        <style> <!-- Beginning of style Alan -->
+        <style> /* Beginning of style Alan */
         h1 {color:crimson;}
-        h2 {color:magenta; font-family:verdana; font-size:300%;} <!-- h2 style change Aaron -->
+        h2 {color:magenta; font-family:verdana; font-size:300%;} /* h2 style change Aaron */
         </style>
     </head>
     
