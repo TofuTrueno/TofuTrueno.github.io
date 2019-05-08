@@ -7,21 +7,44 @@
             h1 {color:crimson;}
             h2 {color:magenta; font-family:verdana; font-size:300%;} /* h2 style change Aaron */
             
-            h1 { color:red;
-                text-align: center;
-            } /*changing the h1 color with center alignment -Iman */
-            h2 { text-align: center; 
-            } /* h2 center alignemnt -Iman */
-            .center{ color: blue;
-                     text-align: center; font-size: 40px;
-            } /*using class selector -Iman */
-            p.large{ font-size:50px
-            } /*using class selector with specific class -Iman */
-            #practice{ font-size:30px;
-                       color:green; text-align: center;
-            } /* using id selector -Iman */
+            /*All my styles will only impact child elements  of my div with ID "iman"*/
+            /* syntax:
+            parent-select descendant-selector { styles } 
+            Iman*/
             
+            #iman {
+                background-color: #CEF0FA;
+            }
+            /*changing the h1 color with center alignment -Iman */
+            #iman h1 { 
+                color:red;
+                text-align: center;
+            } 
 
+            /* h2 center alignemnt -Iman */
+            #iman  h2 { 
+                text-align: center; 
+            } 
+            
+            /*using class selector -Iman */
+            #iman  .center{ 
+                color: blue;
+                text-align: center; 
+                font-size: 40px;
+            }
+
+            /*using class selector with specific class -Iman */
+            #iman  p.large{ 
+                font-size:50px
+            } 
+
+            /* using id selector -Iman */
+            #iman  #practice{ 
+                font-size:30px;
+                color:green; 
+                text-align: center;
+            }
+            
         </style>
     </head>
     
@@ -58,6 +81,17 @@
         <!-- Long fun time link Aaron -->
         
         </body> <!-- End of link rel Alan -->
+        <body>
+            <div id="iman">
+                <h1>Iman's CSS Practice</h1>
+                <h2>CSS Practice 1</h2>
+                <div>
+                    <p class="center large">It is going to take alot of practice to nail this</p>
+                </div>
+                <p class="center"> The class selectors select elements with a specific class attribute</p>
+                <p id="practice">The id selector uses the id attribute to select a specefic element </P>
+            </div>
+        </body>
         
         <i>this is italic text</i> <!--italic Text Iman -->
 
