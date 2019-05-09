@@ -1,0 +1,17 @@
+/* My styles to be reused across multiple pages -Iman  */
+
+/* making the hover of the link larger */
+#iman a:hover{
+    font-size: 50px;
+}
+
+/*changing the h1 color with center alignment -Iman */
+#iman h1 { 
+    color:red;
+    text-align: center;
+} 
+
+/* h2 center alignemnt -Iman */
+#iman  h2 { 
+    text-align: center; 
+} 
